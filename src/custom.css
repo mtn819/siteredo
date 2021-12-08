@@ -1,0 +1,10 @@
+:root {
+    --themeColorBlue: #3273dc;
+    font-size: calc(16px + 1vw);
+    font-family: sans-serif;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+}

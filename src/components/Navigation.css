@@ -1,0 +1,22 @@
+.navigation {
+    padding: .25rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.navigation img {
+    width: 1rem;
+}
+
+.navigation a {
+    display: block;
+    margin: 0 .5rem;
+    font-size: .5rem;
+    color: var(--themeColorBlue);
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}

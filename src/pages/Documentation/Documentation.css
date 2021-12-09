@@ -1,0 +1,28 @@
+.documentation {
+    width: fit-content;
+    margin: auto;
+}
+
+.documentation h1,
+.documentation h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    max-width: 45ch;
+    margin-bottom: .5rem;
+}
+
+.documentation p {
+    margin-bottom: .5rem;
+}
+
+.documentation p,
+.documentation li {
+    font-size: .6rem;
+    max-width: 70ch;
+}
+
+.documentation img {
+    font-size: .6rem;
+    max-width: 70ch;
+}

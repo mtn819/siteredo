@@ -4,6 +4,8 @@ import {
   Route,
 } from "react-router-dom";
 import Navigation from "./components/Navigation";
+import Documentation from "./pages/Documentation/Documentation";
+import Classification from "./pages/Classification/Classification";
 import Home from "./pages/Home/Home";
 
 function Router() {
@@ -12,9 +14,9 @@ function Router() {
       <Navigation/>
   
       <Routes>
-        <Route path="/documentation"></Route>
-
-        <Route path="/" element={<Home />}/>
+        <Route path="/classification" element={<Classification />} />
+        <Route path="/documentation" element={<Documentation />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
